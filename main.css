@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .number {
+        @apply text-2xl font-semibold text-[#00FF84];
+    }
+}
